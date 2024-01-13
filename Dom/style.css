@@ -1,0 +1,19 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#bulb {
+  /* background-color: yellowgreen; */
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border: 4px solid #000;
+}
+
+button {
+  margin: 10px 30px;
+  padding: 10px 20px;
+  font-weight: 700;
+}

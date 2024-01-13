@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess The Number Projects</title>
+    <style>
+      #subt {
+        background-color: #000;
+        color: white;
+        border-radius: 5px;
+        padding: 7px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="first_heading">Number Guessing Game</h1>
+    <form class="form">
+      <label for="userInput">Guess Number</label>
+      <input type="text" id="guessField" />
+      <br />
+      <br />
+      <input type="submit" id="subt" value="Submit Guess" />
+    </form>
+    <div class="resultParas">
+      <p>Previous Guesses <span class="guesses"></span></p>
+      <p>Guessing Remaining: <span class="lastResult"></span></p>
+      <p class=".lowOrHigh"></p>
+      <script src="GuessNum.js"></script>
+    </div>
+  </body>
+</html>
